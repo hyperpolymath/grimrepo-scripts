@@ -1,0 +1,13 @@
+Palimpsest License v1.0
+
+Copyright (c) 2025 Jonathan D.A. Jewell
+
+This software is free to use, modify, and distribute under the following conditions:
+
+1. Attribution must be maintained in all copies or substantial portions of the software.
+2. This license and copyright notice must be included in all copies.
+3. Modifications must be documented.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+For full license terms, see: https://github.com/hyperpolymath/palimpsest-license

@@ -1,0 +1,27 @@
+= grimrepo-scripts
+
+ReScript scripts for repository management and automation.
+
+== Overview
+
+Collection of ReScript-based scripts for managing repositories, enforcing standards, and automating common tasks.
+
+== Installation
+
+[source,bash]
+----
+npm install
+npm run res:build
+----
+
+== Usage
+
+[source,bash]
+----
+just build
+just run
+----
+
+== License
+
+Palimpsest License - See LICENSE for details.
