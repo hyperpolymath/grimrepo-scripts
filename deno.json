@@ -1,0 +1,17 @@
+{
+  "name": "@hyperpolymath/grimrepo-scripts",
+  "version": "1.0.0",
+  "tasks": {
+    "build": "deno run -A npm:rescript",
+    "dev": "deno run -A npm:rescript -w",
+    "clean": "rm -rf dist/ && find src -name '*.mjs' -delete",
+    "fmt": "deno run -A npm:rescript format src/**/*.res",
+    "check": "deno run -A npm:rescript"
+  },
+  "imports": {
+    "rescript": "npm:rescript@11"
+  },
+  "compilerOptions": {
+    "allowJs": true
+  }
+}

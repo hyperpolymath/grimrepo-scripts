@@ -14,7 +14,7 @@ build: build-rescript build-userscripts
 # Compile ReScript
 build-rescript:
     @echo "Compiling ReScript..."
-    npx rescript
+    deno run -A npm:rescript
 
 # Bundle userscripts
 build-userscripts: build-rescript
@@ -56,7 +56,7 @@ _bundle-script name category:
 
 # Watch mode
 dev:
-    npx rescript -w
+    deno run -A npm:rescript -w
 
 # Clean build artifacts
 clean:
@@ -68,11 +68,11 @@ clean:
 
 # Format check
 fmt:
-    npx rescript format src/**/*.res
+    deno run -A npm:rescript format src/**/*.res
 
 # Type check
 check:
-    npx rescript
+    deno run -A npm:rescript
 
 # === WASM ===
 
