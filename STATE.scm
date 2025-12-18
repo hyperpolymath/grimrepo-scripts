@@ -15,7 +15,7 @@
   '((version . "0.1.0")
     (schema-version . "1.0")
     (created . "2025-12-15")
-    (updated . "2025-12-15")
+    (updated . "2025-12-17")
     (project . "grimrepo-scripts")
     (repo . "github.com/hyperpolymath/grimrepo-scripts")))
 
@@ -68,7 +68,10 @@
      ("RSR-compliant CI/CD pipeline"
       "Multi-platform mirroring (GitHub, GitLab, Bitbucket)"
       "SPDX license headers on all files"
-      "SHA-pinned GitHub Actions"))))
+      "SHA-pinned GitHub Actions (100% compliant)"
+      "RFC 9116 security.txt compliance"
+      "CodeQL security scanning for JavaScript/TypeScript"
+      "OSSF Scorecard integration"))))
 
 ;;;============================================================================
 ;;; ROUTE TO MVP
@@ -151,6 +154,14 @@
 
 (define session-history
   '((snapshots
+     ((date . "2025-12-17")
+      (session . "security-hardening")
+      (accomplishments
+       ("SHA-pinned denoland/setup-deno@v2 → v2.0.3"
+        "Created .well-known/security.txt (RFC 9116 compliance)"
+        "Enabled CodeQL security scanning for ReScript/JavaScript"
+        "Updated Deno version to v2.x in CI"))
+      (notes . "Security audit and SCM hardening completed"))
      ((date . "2025-12-15")
       (session . "initial-state-creation")
       (accomplishments
@@ -189,6 +200,6 @@
     (next-milestone . "v0.2 - Core Functionality")
     (critical-blockers . 0)
     (high-priority-issues . 0)
-    (updated . "2025-12-15")))
+    (updated . "2025-12-17")))
 
 ;;; End of STATE.scm

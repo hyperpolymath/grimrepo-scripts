@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# RFC 9116 security.txt for grimrepo-scripts
+# Reference: https://securitytxt.org/
+
+Contact: https://github.com/hyperpolymath/grimrepo-scripts/security/advisories/new
+Expires: 2026-12-17T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://github.com/hyperpolymath/grimrepo-scripts/.well-known/security.txt
+Policy: https://github.com/hyperpolymath/grimrepo-scripts/security/policy
